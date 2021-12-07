@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/Gallery.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="body">
+        <div id="logo">
+            <center>
+                <img src="img/logo.png" width="200px">
+            </center>
+        </div>
+        <div id="banner">
+            <img src="img/Banner.jpg" width="1000px">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="/Gallery.html">Bộ sưu tập</a></li>
+                <li><a href="/Register.html">Đăng ký</a></li>
+                <li><a href="/Selling.html">Bán hàng</a></li>
+            </ul>
+        </div>
+        <div id="tittle">
+            <h1>Bộ sưu tập ảnh</h1>
+            <center>
+                <div class="khung"></div>
+            </center>
+        </div>
+
+        <!-- slide show -->
+        <div class="slider">
+            <button id="prev"><</button>
+            <button id="next">></button>
+
+            <div class="slide-show">
+                <div class="item active">
+                    <img src="img/Anh0.JPG" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/Anh1.JPG" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/Anh2.JPG" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/Anh3.JPG" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/Anh4.JPG" alt="">
+                </div>
+            </div>
+
+
+
+            <p id="title">Ảnh
+                <span id="number">1</span> /
+                <span id="demo">5</span>
+            </p>
+        </div>
+        <!-- end slide show -->
+
+
+        <div id="footer">
+            <p>Vũ Phương Nam - PH15954</p>
+        </div>
+    </div>
+
+    <script src="js/Gallery.js"></script>
+</body>
+
+</html>
